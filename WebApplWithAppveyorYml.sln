@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplWithAppveyorYml", "WebApplWithAppveyorYml\WebApplWithAppveyorYml.csproj", "{381F538F-CB5E-4D30-A287-F09F7109B374}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{96C8C3D6-5699-474C-BF25-1D126C590EEE}"
+	ProjectSection(SolutionItems) = preProject
+		packages\AppVeyorYml.2.0.1\..\..\.nuget\nuget.config = packages\AppVeyorYml.2.0.1\..\..\.nuget\nuget.config
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppVeyorOverrides", "AppVeyorOverrides", "{3A04CA4F-2FF1-4690-954E-BCF7C246FE7B}"
+	ProjectSection(SolutionItems) = preProject
+		packages\AppVeyorYml.2.0.1\..\..\appveyor.yml = packages\AppVeyorYml.2.0.1\..\..\appveyor.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{381F538F-CB5E-4D30-A287-F09F7109B374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{381F538F-CB5E-4D30-A287-F09F7109B374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{381F538F-CB5E-4D30-A287-F09F7109B374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{381F538F-CB5E-4D30-A287-F09F7109B374}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
